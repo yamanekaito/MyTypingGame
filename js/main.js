@@ -25,7 +25,6 @@
 
   window.addEventListener('keydown',e => {
     if (e.key === word[loc]) {
-      console.log(e.key);
       loc ++ ;
       correctCount ++ ;
       letterCount.textContent = correctCount;
