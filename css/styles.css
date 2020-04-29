@@ -1,0 +1,19 @@
+.container {
+  width:400px;
+  margin:0 auto;
+  text-align:center;
+  user-select:none;
+}
+
+ul {
+  display:flex;
+  margin:0 auto;
+  padding:0;
+  text-align:center;
+  justify-content:space-between;
+}
+
+li {
+  list-style:none;
+  
+}
